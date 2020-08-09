@@ -10,6 +10,12 @@ author 'Badger'
 description 'BankRobbery'
 version '1.0.0'
 
--- What to run
-client_script 'client.lua'
-server_script 'server.lua'
+client_scripts {
+	"config.lua",
+	"client.lua"
+}
+
+server_scripts {
+	"config.lua",
+	"server.lua"
+}
