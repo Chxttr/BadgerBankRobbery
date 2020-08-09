@@ -3,12 +3,13 @@
 ---          by Badger          ---
 -----------------------------------
 
-client_scripts {
-	"config.lua",
-	"client.lua"
-}
+fx_version 'bodacious'
+games { 'gta5' }
 
-server_scripts {
-	"config.lua",
-	"server.lua"
-}
+author 'Badger'
+description 'BankRobbery'
+version '1.0.0'
+
+-- What to run
+client_script 'client.lua'
+server_script 'server.lua'
